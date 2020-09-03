@@ -1,0 +1,50 @@
+/*CSS Variables*/
+:root {
+    --text: #2a2438;
+    --background: #dbd8e3;
+    --headings: #5c5470;
+    --accents: #352f44;
+}
+/*Selector-Tags*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Rambla', sans-serif;    
+    color: var(--headings);
+    margin:0 8px 0 8px;
+}
+body {
+    background-image: url("../images/cloud.png");
+    background-color: var(--background);
+    text-align:center;
+    margin: 0px;
+}
+
+/*Selector-id*/
+/*Selector-class*/
+.container-top {
+    position: relative;
+    top:200px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+}
+.container-middle {
+    height: 200px;
+    width: 200px;
+}
+.container-bottom {
+    height: 200px;
+    width: 200px;
+}
+.cloud {
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+}
+.mountain {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+}
+
