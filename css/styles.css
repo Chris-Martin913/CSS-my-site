@@ -24,7 +24,6 @@ h3 {
 }
 h4 {
     font-size: 3rem;
-    margin: 0px auto auto auto;
     font-weight: normal;
 }
 h5 {
@@ -44,6 +43,9 @@ body {
 
 /*Selector-id*/
 /*Selector-class*/
+.sub-header {
+    margin: 0px auto auto auto;
+}
 .top-container {
     position: relative;
     background-color: var(--background);
@@ -78,8 +80,14 @@ body {
     width: 10%;
 }
 .skills-image {
-    width: 6%;
+    width: 15%;
     padding: 5px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 
